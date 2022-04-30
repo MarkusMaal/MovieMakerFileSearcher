@@ -6,3 +6,4 @@ This program allows you to analyze and recover data from old Windows Movie Maker
 * Extract and deobfuscate the XML data for the project
 * Works with corrupted files
 * Command line interface
+* Support for any Windows 2.x and 6.0 project file with the MSWMM file extension
