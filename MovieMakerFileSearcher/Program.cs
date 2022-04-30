@@ -31,7 +31,7 @@ namespace MovieMakerFileSearcher
                 while (true)
                 {
                     Console.Clear();
-                    Console.WriteLine("Welcome to Windows Movie Maker 2.x forensics!");
+                    Console.WriteLine("Welcome to Windows Movie Maker forensics!");
                     Console.WriteLine("\nPlease choose an activity or press Ctrl+C to quit:\n");
                     Console.WriteLine("1. Find Movie Maker files");
                     Console.WriteLine("\tIn case you have lost a Movie Maker file somewhere, changed the file extension or used\n\ta data recovery software such as PhotoRec, you can use this to find Movie Maker headers.");
@@ -66,7 +66,7 @@ namespace MovieMakerFileSearcher
                         return 3;
                     }
                     string me = AppDomain.CurrentDomain.FriendlyName;
-                    Console.WriteLine("Windows Movie Maker 2.x forensics");
+                    Console.WriteLine("Windows Movie Maker forensics");
                     Console.WriteLine(string.Format("\nSyntax: {0} [/f /i /x /?] [mswmm file/folder path]", me));
                     Console.WriteLine("\n/f - This allows you to find MSWMM files inside a specific folder.");
                     Console.WriteLine("/i - This allows you to extract thumbnails from the MSWMM file.");
